@@ -1,2 +1,60 @@
-*.pyc
+# ----------------------------------------
+# 1. Standard OS and Editor Files
+# ----------------------------------------
+.DS_Store
+*.swp
+*~
+# Logs
+*.log
+log/
+.env
+
+# ----------------------------------------
+# 2. Python-specific files
+# ----------------------------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Package management
+# pip-installed packages
+lib/
+lib64/
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+
+# Jupyter / IPython
+.ipynb_checkpoints
+
+# Ignore large dataset files and directories
+data/
+datasets/
+raw_data/
+processed_data/
+
+# Model checkpoints and weights
+checkpoints/
+models/
+*.pt
+*.pth
+*.h5
+*.ckpt
+
+# Output/Generated Files
 output/
+results/
+# Feature/Cache files (e.g., from feature templates or pre-processing)
+*.pkl
+*.pickle
+*.jsonl
+*.csv
+*.tsv
